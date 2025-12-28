@@ -1,0 +1,46 @@
+[
+  {
+    "chunk_id": "incident_001::summary",
+    "incident_id": "incident_001",
+    "section_type": "summary",
+    "service": "api-gateway",
+    "severity": "high",
+    "timestamp": "2023-06-14 10:45:00+00:00",
+    "text": "API gateway returned intermittent 502 errors after deployment.",
+    "source_url": "https://example.com/public-postmortem",
+    "is_synthetic": true
+  },
+  {
+    "chunk_id": "incident_001::root_cause",
+    "incident_id": "incident_001",
+    "section_type": "root_cause",
+    "service": "api-gateway",
+    "severity": "high",
+    "timestamp": "2023-06-14 10:45:00+00:00",
+    "text": "A misconfigured timeout setting caused upstream services to drop connections.",
+    "source_url": "https://example.com/public-postmortem",
+    "is_synthetic": true
+  },
+  {
+    "chunk_id": "incident_001::resolution",
+    "incident_id": "incident_001",
+    "section_type": "resolution",
+    "service": "api-gateway",
+    "severity": "high",
+    "timestamp": "2023-06-14 10:45:00+00:00",
+    "text": "Rolled back the deployment and corrected timeout values.",
+    "source_url": "https://example.com/public-postmortem",
+    "is_synthetic": true
+  },
+  {
+    "chunk_id": "incident_001::lessons_learned",
+    "incident_id": "incident_001",
+    "section_type": "lessons_learned",
+    "service": "api-gateway",
+    "severity": "high",
+    "timestamp": "2023-06-14 10:45:00+00:00",
+    "text": "Introduce config validation checks in CI.",
+    "source_url": "https://example.com/public-postmortem",
+    "is_synthetic": true
+  }
+]

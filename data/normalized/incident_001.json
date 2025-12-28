@@ -1,0 +1,13 @@
+{
+  "doc_id": "incident_001",
+  "doc_type": "incident",
+  "service": "api-gateway",
+  "severity": "high",
+  "timestamp": "2023-06-14 10:45:00+00:00",
+  "summary": "API gateway returned intermittent 502 errors after deployment.",
+  "root_cause": "A misconfigured timeout setting caused upstream services to drop connections.",
+  "resolution": "Rolled back the deployment and corrected timeout values.",
+  "lessons_learned": "Introduce config validation checks in CI.",
+  "source_url": "https://example.com/public-postmortem",
+  "is_synthetic": true
+}
